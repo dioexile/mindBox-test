@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-function ToDoForm({ addTask }) {
+function ToDoForm({ addTask}) {
     const [userInput, setUserInput] = useState('')
 
     const handleChange = (e) => {
@@ -9,6 +9,7 @@ function ToDoForm({ addTask }) {
     
     const handleSubmit = (e) => {
         e.preventDefault()
+
         addTask(userInput)
         setUserInput("")
     }
