@@ -20,7 +20,7 @@ function App() {
   useEffect(() => {
     setCompletedTodo(todos)
     counter()//работает не всегда верно тк счетчик постоянно обнуляется(не знаю как исправить)
-  }, [todos, completedTodo])
+  }, [todos])
 
   const todoFilter = (complete) => {
     if (complete === 'all') {
