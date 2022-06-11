@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;1,100;1,200&display=swap');
+*{
+  font-family: 'Montserrat', sans-serif;
+}
+body{
+  background: #f5f5f5;
+}
+.App {
+  text-align: center;
+}
+.content{
+  background: #fff;
+  margin: auto;
+  width: 450px;
+  border: 1px solid #eaeaea;
+  box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+.check{
+  cursor: pointer;
+}
+.App .item-todo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 32px 14px 16px;
+  width: 400px;
+  margin: 0 auto;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  color: #000;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.App .item-todo .item-text {
+  display: inline-block;
+}
+
+.add-input {
+  width: 400px;
+  padding: 14px 32px 14px 16px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #eaeaea;
+  background: transparent;
+}
+
+.App .item-todo .item-delete {
+  display: inline-block;
+  cursor: pointer;
+  font-size: 22px;
+  position: relative;
+}
+
+.strike {
+  color:#ccc;
+  text-decoration: line-through;
+}
+.title{
+  font-size: 50px;
+  color: #ffc0cb;
+  font-weight: 200;
+}
+.controls{
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  justify-content: space-around;
+}
+.buttons span{
+  cursor: pointer;
+  margin: 0 5px;
+}
+.clear span {
+  cursor: pointer;
+}
